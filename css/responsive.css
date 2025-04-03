@@ -14,4 +14,11 @@
     header .texto p{
         font-size: 16px;
     }
+
+    /* qualidade-processos */
+    
+    .qualidade-processos .group-items{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
 }
