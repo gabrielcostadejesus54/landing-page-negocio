@@ -20,5 +20,18 @@
     .qualidade-processos .group-items{
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    /* oferecimento */
+    .oferecimento{
+        padding: 35px 2%;
+    }
+
+    .oferecimento p{
+        font-size: 18px;
+    }
+
+    .oferecimento .box span{
+        font-size: 14px;
+    }
     
 }
