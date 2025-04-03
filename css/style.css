@@ -250,3 +250,36 @@ header .texto p{
     grid-area: 3 / 5;
 }
 
+/* contato */
+.contato{
+    padding: 160px 2%;
+    text-align: center;
+}
+
+.contato h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.contato p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+}
+
+.contato button{
+    padding: 25px 40px;
+    background-color: #F84646;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contato button:hover{
+    background-color: #ce2d2d;
+    transform: scale(1.03);
+}
