@@ -1,0 +1,45 @@
+/* Configurações gerais */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    background-image: url('../img/bg-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 754px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+}
+
+header .texto{
+    max-width: 626px;
+    width: 100%;
+}
+
+header .texto h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 82px;
+}
+
+header .texto p{
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 20px;
+}
