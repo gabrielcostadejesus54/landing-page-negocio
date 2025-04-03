@@ -179,5 +179,74 @@ header .texto p{
     transform: scale(1.03);
 }
 
+/* referencias */
+.referencias{
+    padding: 59px 2%;
+    background-color: #F4F5F7;
+    text-align: center;
+}
 
+.referencias h2{
+    font-size: 48px;
+    color: #18191F;
+    font-weight: 800;
+}
+
+.referencias p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.grid-group-empresas{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+
+.grid-group-empresas .item-empresa{
+    background-color: white;
+    height: 96px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empresa1{
+    grid-area: 3 / 1;
+}
+
+.empresa2{
+    grid-area: 2 / 2;
+}
+
+.empresa3{
+    grid-area: 3 / 2;
+}
+
+.empresa4{
+    grid-area: 1 / 3;
+}
+
+.empresa5{
+    grid-area: 2 / 3;
+}
+
+.empresa6{
+    grid-area: 3 / 3;
+}
+
+.empresa7{
+    grid-area: 2 / 4;
+}
+
+.empresa8{
+    grid-area: 3 / 4;
+}
+
+.empresa9{
+    grid-area: 3 / 5;
+}
 
