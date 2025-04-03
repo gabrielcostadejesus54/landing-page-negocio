@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px){
+    
+    .container{
+        max-width: 852px;
+    }
+    
+    /* header */
+    
+    
+    header .texto h1{
+        font-size: 56px;
+    }
+    
+    header .texto p{
+        font-size: 16px;
+    }
+}
