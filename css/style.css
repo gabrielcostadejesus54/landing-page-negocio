@@ -42,4 +42,47 @@ header .texto p{
     font-size: 20px;
     line-height: 36px;
     margin-top: 20px;
+    letter-spacing: 0.2px;
 }
+
+/* qualidade-processos */
+.qualidade-processos{
+    padding: 120px 2%;
+}
+
+.qualidade-processos h2{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.qualidade-processos .container > p{
+    font-size: 20px;
+    line-height: 39px;
+    max-width: 994px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 90px;
+}
+
+.qualidade-processos .group-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 116px;
+    text-align: center;
+}
+
+.qualidade-processos .group-items h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.qualidade-processos .group-items p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
