@@ -123,5 +123,61 @@ header .texto p{
     width: 32px;
 }
 
+/* Gestão */
+.gestao{
+    padding: 160px 2%;
+}
+
+.gestao article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gestao .art1{
+    margin-bottom: 120px;
+}
+
+.gestao .art2{
+    flex-direction: row-reverse;
+}
+
+.gestao .art2 .description{
+    padding-left: 150px;
+}
+
+.gestao article h2{
+    color: #2E2E2E;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    max-width: 656px;
+    width: 100%;
+}
+
+.gestao article p{
+    color: #808080;  
+    line-height: 32px;
+    max-width: 523px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.gestao article button{
+    width: 160px;
+    height: 48px;
+    background-color: #F84646;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.gestao article button:hover{
+    background-color: #ce2d2d;
+    transform: scale(1.03);
+}
+
 
 
