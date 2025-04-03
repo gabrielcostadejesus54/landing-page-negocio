@@ -283,3 +283,41 @@ header .texto p{
     background-color: #ce2d2d;
     transform: scale(1.03);
 }
+
+/* footer */
+footer{
+    background-color: #F8464A;
+    color: white;
+    padding: 80px 2%;
+}
+
+footer .listas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 142px;
+}
+
+footer .listas .title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+footer .listas ul{
+    list-style-type: none;
+}
+
+footer .listas ul li{
+    margin-bottom: 16px;
+    color: #E6E6E6;
+}
+
+footer .rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .rodape .socials img{
+    margin-right: 16px;
+}
