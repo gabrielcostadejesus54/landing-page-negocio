@@ -271,5 +271,31 @@
         grid-template-columns: repeat(1, 1fr);
         max-width: 170px;
     }
+
+    /* contato */
+
+    .contato{
+        padding: 90px 2%;
+    }
+    
+    .contato h2{
+        font-size: 36px;
+    }
+    
+    .contato p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .contato button{
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    
+    .contato button:hover{
+        background-color: #ce2d2d;
+        transform: scale(1.03);
+    }
+    
     
 }
