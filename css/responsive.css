@@ -104,5 +104,10 @@
     .empresa9{
         grid-area: auto;
     }
-    
+
+    /* contato */
+
+    .contato p{
+        font-size: 18px;
+    }
 }
