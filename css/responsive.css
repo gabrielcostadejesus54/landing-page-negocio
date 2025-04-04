@@ -124,3 +124,51 @@
 
     
 }
+
+@media screen and (max-width: 768px){
+    /* gestao */  
+    .gestao article{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gestao article p{
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .gestao .art2{
+        flex-direction: column-reverse;
+    }
+    
+    .gestao .art1 .description{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .gestao .art2 .description{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .gestao article img{
+        margin-bottom: 30px;
+    }
+
+    /* footer */
+    
+    footer .listas{
+        flex-wrap: wrap; 
+    }
+    
+    
+    footer .listas ul{
+        list-style-type: none;
+        width: 50%;
+        padding-right: 0;
+        margin-top: 49px;
+    }
+    
+    
+}
