@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){ /*Laptop*/
     
     .container{
         max-width: 852px;
@@ -125,7 +125,7 @@
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ /*Tablet*/
     /* gestao */  
     .gestao article{
         flex-direction: column-reverse;
@@ -171,4 +171,20 @@
     }
     
     
+}
+
+@media screen and (max-width: 425px){ /*Mobiel L*/
+    /* header */
+    
+    header .texto h1{
+        font-size: 42px;
+        text-align: center;
+        line-height: 57px;
+    }
+    
+    header .texto p{
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+    }
 }
