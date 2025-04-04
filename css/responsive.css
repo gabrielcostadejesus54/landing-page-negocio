@@ -33,5 +33,25 @@
     .oferecimento .box span{
         font-size: 14px;
     }
+
+    /* gestão */
+
+    .gestao .art1 .description{
+        padding-right: 50px;
+    }
+    
+    .gestao .art2 .description{
+        padding-left: 56px;
+    }
+    
+    .gestao article h2{
+        font-size: 58px;
+        line-height: 59px;
+    }
+
+    .gestao article img{
+        max-width: 424px;
+        width: 100%;  
+    }
     
 }
