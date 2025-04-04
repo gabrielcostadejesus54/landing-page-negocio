@@ -205,6 +205,9 @@ header .texto p{
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: 24px;
+    max-width: 946px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .grid-group-empresas .item-empresa{

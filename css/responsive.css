@@ -53,5 +53,56 @@
         max-width: 424px;
         width: 100%;  
     }
+
+    /* referencias */  
+    .referencias p{
+        font-size: 18px;
+    }
+    
+    .grid-group-empresas{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 558px;
+    }
+
+    .grid-group-empresas .item-empresa{
+        height: 96px;
+    }
+    
+    .empresa1{
+        grid-area:auto;
+    }
+    
+    .empresa2{
+        grid-area: auto;
+    }
+    
+    .empresa3{
+        grid-area: auto;
+    }
+    
+    .empresa4{
+        grid-area: auto;
+    }
+    
+    .empresa5{
+        grid-area: auto;
+    }
+    
+    .empresa6{
+        grid-area: auto;
+    }
+    
+    .empresa7{
+        grid-area: auto;
+    }
+    
+    .empresa8{
+        grid-area: auto;
+    }
+    
+    .empresa9{
+        grid-area: auto;
+    }
     
 }
