@@ -254,4 +254,22 @@
     .gestao{
         padding: 90px 2%;
     }
+
+    /* referencias */
+
+    .referencias h2{
+        font-size: 36px;
+    }
+
+    .referencias p{
+        font-size: 14px;
+        line-height: 32px;
+    }
+    
+    .grid-group-empresas{
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 170px;
+    }
+    
 }
