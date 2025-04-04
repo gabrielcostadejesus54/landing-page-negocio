@@ -110,4 +110,17 @@
     .contato p{
         font-size: 18px;
     }
+
+    /* footer */
+
+    footer .listas ul{
+        list-style-type: none;
+        padding-right: 80px;
+    }
+
+    footer .listas ul:last-of-type{
+        padding-right: 0;
+    }
+
+    
 }
