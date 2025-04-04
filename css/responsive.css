@@ -324,3 +324,9 @@
     
     
 }
+
+@media screen and (max-width: 320px){
+    header .texto h1{
+        font-size: 40px;
+    }
+}
