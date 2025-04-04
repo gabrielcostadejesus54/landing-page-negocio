@@ -202,5 +202,31 @@
         font-size: 12px;
         line-height: 22px;
     }
+
+    /* oferecimento */
+
+    .oferecimento p{
+        font-size: 14px;
+    }
+
+    .oferecimento .box span{
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .oferecimento h2{
+        font-size: 36px;
+    }
+    
+    .oferecimento .box{
+        flex-direction: column;
+    }
+    
+    .oferecimento .box img{
+        margin-bottom: 40px;
+        transform: rotate(90deg);
+    }
     
 }
