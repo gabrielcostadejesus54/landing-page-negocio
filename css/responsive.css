@@ -228,5 +228,30 @@
         margin-bottom: 40px;
         transform: rotate(90deg);
     }
-    
+
+    /* gestao */
+
+    .gestao article p{
+        line-height: 28px;
+        margin-bottom: 48px;
+        font-size: 14px;
+    }
+
+    .gestao article h2{
+        font-size: 36px;
+        line-height: 41px;
+        margin-bottom: 16px;
+    }
+
+    .gestao article button{
+        width: 100%;
+    }
+
+    .gestao .art1{
+        margin-bottom: 40px;
+    }
+
+    .gestao{
+        padding: 90px 2%;
+    }
 }
