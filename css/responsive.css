@@ -297,5 +297,30 @@
         transform: scale(1.03);
     }
     
+    /* footer */
+    
+    footer .listas{
+        display: flex;
+        flex-direction: column;
+        max-width: 259px;
+        width: 100%;
+        margin: 0 auto 130px auto;
+    }
+    
+
+    footer .listas ul{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    footer .rodape{
+       flex-direction: column-reverse;
+    }
+    
+    footer .rodape .socials{
+        margin-bottom: 60px;
+    }
+    
+    
     
 }
